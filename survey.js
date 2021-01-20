@@ -36,6 +36,8 @@ function check() {
    }
    if (c==5){
         result.textContent="You can learn with a balanced mixture of visual cues and text !!!"
+        var str = "Click here to start learning English with hybrid template";
+        var link = str.link("/hybrid.html");
         var str1 = "Do the Survey again.";
         var link1 = str1.link("/index.html");
         document.getElementById('again').innerHTML = link1;
