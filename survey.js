@@ -40,6 +40,7 @@ function check() {
         var link = str.link("/hybrid.html");
         var str1 = "Do the Survey again.";
         var link1 = str1.link("/index.html");
+        document.getElementById('a').innerHTML = link;
         document.getElementById('again').innerHTML = link1;
 
    } 
