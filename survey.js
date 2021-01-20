@@ -25,8 +25,8 @@ function check() {
    survey.style.display="none";
     
    if (c<5) {
-       result.textContent="You are the VIDEO learner !!!";
-       var str = "Click here to try to learn with video";
+       result.textContent="You are the Visual learner !!!";
+       var str = "Click here to start learning English with videos";
        var link = str.link("/video.html");
        var str1 = "Do the Survey again.";
        var link1 = str1.link("/survey.html");
@@ -35,7 +35,7 @@ function check() {
 
    }
    if (c==5){
-        result.textContent="You can learn with both video or text !!!"
+        result.textContent="You can learn with a balanced mixture of visual cues and text !!!"
         var str1 = "Do the Survey again.";
         var link1 = str1.link("/survey.html");
         document.getElementById('again').innerHTML = link1;
@@ -43,7 +43,7 @@ function check() {
    } 
    if (c>5) {
         result.textContent="You are the TEXT learner"
-        var str = "Click here to try to learn with text only";
+        var str = "Click here to start learning English with text only";
         var link = str.link("/text.html");
         var str1 = "Do the Survey again.";
         var link1 = str1.link("/survey.html");
