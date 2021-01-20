@@ -42,7 +42,7 @@ function check() {
 
    } 
    if (c>5) {
-        result.textContent="You are the TEXT learner"
+        result.textContent="You are the TEXT learner !!!"
         var str = "Click here to start learning English with text only";
         var link = str.link("/text.html");
         var str1 = "Do the Survey again.";
