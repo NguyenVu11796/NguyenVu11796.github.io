@@ -29,7 +29,7 @@ function check() {
        var str = "Click here to start learning English with videos";
        var link = str.link("/video.html");
        var str1 = "Do the Survey again.";
-       var link1 = str1.link("/survey.html");
+       var link1 = str1.link("/index.html");
        document.getElementById('a').innerHTML = link;
        document.getElementById('again').innerHTML = link1;
 
@@ -37,7 +37,7 @@ function check() {
    if (c==5){
         result.textContent="You can learn with a balanced mixture of visual cues and text !!!"
         var str1 = "Do the Survey again.";
-        var link1 = str1.link("/survey.html");
+        var link1 = str1.link("/index.html");
         document.getElementById('again').innerHTML = link1;
 
    } 
@@ -46,7 +46,7 @@ function check() {
         var str = "Click here to start learning English with text only";
         var link = str.link("/text.html");
         var str1 = "Do the Survey again.";
-        var link1 = str1.link("/survey.html");
+        var link1 = str1.link("/index.html");
        document.getElementById('a').innerHTML = link;
        document.getElementById('again').innerHTML = link1;
 
